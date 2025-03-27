@@ -4,7 +4,7 @@
         <title>Suscripciones PrimeView</title>
     </head>
     <body>
-        <outline text="Blog PrimeView" type="rss" xmlUrl="https://tusuario.github.io/web-rss/feed/rss.xml" htmlUrl="https://tusuario.github.io/web-rss/blog/index.html"/>
-        <outline text="Podcast PrimeView" type="rss" xmlUrl="https://tusuario.github.io/web-rss/feed/podcast.xml" htmlUrl="https://tusuario.github.io/web-rss/podcast/index.html"/>
+        <outline text="Blog PrimeView" type="rss" xmlUrl="alby06.github.io/PRUEBA-WEB-RSS--DEEP-/feed/rss.xml" htmlUrl="https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/blog/index.html"/>
+        <outline text="Podcast PrimeView" type="rss" xmlUrl="alby06.github.io/PRUEBA-WEB-RSS--DEEP-/feed/podcast.xml" htmlUrl="https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/index.html"/>
     </body>
 </opml>
