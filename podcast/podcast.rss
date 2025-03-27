@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>PrimeView Podcast</title>
+        <link>https://tusuario.github.io/primeview/podcast/index.html</link>
+        <description>Conversaciones con creadores, análisis de series y detrás de cámaras del mundo del streaming.</description>
+        <language>es</language>
+        
+        <item>
+            <title>Episodio 3: El futuro del streaming</title>
+            <pubDate>Fri, 10 Nov 2023 12:00:00 GMT</pubDate>
+            <description>Analizamos las tendencias y tecnologías que darán forma al streaming en los próximos años.</description>
+            <enclosure url="https://tusuario.github.io/primeview/podcast/episodio3.mp3" length="10240000" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Episodio 2: Entrevista con la creadora de "Luz Nocturna"</title>
+            <pubDate>Fri, 27 Oct 2023 12:00:00 GMT</pubDate>
+            <description>Conversación exclusiva con la directora de la serie más premiada del año.</description>
+            <enclosure url="https://tusuario.github.io/primeview/podcast/episodio2.mp3" length="9800000" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Episodio 1: Cómo se hace una serie de PrimeView</title>
+            <pubDate>Sun, 15 Oct 2023 12:00:00 GMT</pubDate>
+            <description>Desde el guión hasta el estreno: el proceso completo de producción.</description>
+            <enclosure url="https://tusuario.github.io/primeview/podcast/episodio1.mp3" length="9500000" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>
