@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>PrimeView Podcast</title>
+        <link>https://tusuario.github.io/web-rss/podcast/index.html</link>
+        <description>Conversaciones con los creadores de tus series favoritas</description>
+        <language>es</language>
+        
+        <item>
+            <title>Episodio 1: El making of de "Código de Honor"</title>
+            <link>https://tusuario.github.io/web-rss/podcast/index.html</link>
+            <description>Entrevista con el equipo de producción de nuestra nueva serie dramática.</description>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://tusuario.github.io/web-rss/audio/episodio1.mp3" length="10240000" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Episodio 2: La música en PrimeView</title>
+            <link>https://tusuario.github.io/web-rss/podcast/index.html</link>
+            <description>Conversación con nuestros compositores sobre cómo crean las bandas sonoras.</description>
+            <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://tusuario.github.io/web-rss/audio/episodio2.mp3" length="9800000" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>
