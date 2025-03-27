@@ -10,21 +10,21 @@
             <title>Episodio 3: El futuro del streaming</title>
             <pubDate>Fri, 10 Nov 2023 12:00:00 GMT</pubDate>
             <description>Analizamos las tendencias y tecnologías que darán forma al streaming en los próximos años.</description>
-            <enclosure url="https://tusuario.github.io/primeview/podcast/episodio3.mp3" length="10240000" type="audio/mpeg"/>
+            <enclosure url="https://github.com/Alby06/PRUEBA-WEB-RSS--DEEP-/blob/main/podcast/se-me-sale-la-caca.mp3" length="10240000" type="audio/mpeg"/>
         </item>
         
         <item>
             <title>Episodio 2: Entrevista con la creadora de "Luz Nocturna"</title>
             <pubDate>Fri, 27 Oct 2023 12:00:00 GMT</pubDate>
             <description>Conversación exclusiva con la directora de la serie más premiada del año.</description>
-            <enclosure url="https://tusuario.github.io/primeview/podcast/episodio2.mp3" length="9800000" type="audio/mpeg"/>
+            <enclosure url="https://github.com/Alby06/PRUEBA-WEB-RSS--DEEP-/blob/main/podcast/bla-bla-bla-ble-ble-ble.mp3" length="9800000" type="audio/mpeg"/>
         </item>
         
         <item>
             <title>Episodio 1: Cómo se hace una serie de PrimeView</title>
             <pubDate>Sun, 15 Oct 2023 12:00:00 GMT</pubDate>
             <description>Desde el guión hasta el estreno: el proceso completo de producción.</description>
-            <enclosure url="https://tusuario.github.io/primeview/podcast/episodio1.mp3" length="9500000" type="audio/mpeg"/>
+            <enclosure url="https://github.com/Alby06/PRUEBA-WEB-RSS--DEEP-/blob/main/podcast/bombadiro-crocodilo.mp3" length="9500000" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
