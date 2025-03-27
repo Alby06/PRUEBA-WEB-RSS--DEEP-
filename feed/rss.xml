@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Blog de PrimeView</title>
+        <link>https://tusuario.github.io/web-rss/blog/index.html</link>
+        <description>Artículos sobre nuestras series y producciones originales</description>
+        <language>es</language>
+        
+        <item>
+            <title>Nuevas series originales este mes</title>
+            <link>https://tusuario.github.io/web-rss/blog/posts/post1.html</link>
+            <description>Descubre las series exclusivas que llegan este mes a PrimeView...</description>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>Cómo grabamos "La casa del lago"</title>
+            <link>https://tusuario.github.io/web-rss/blog/posts/post2.html</link>
+            <description>Detrás de cámaras de nuestra serie más popular...</description>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>Entrevista con el director de "Límite vertical"</title>
+            <link>https://tusuario.github.io/web-rss/blog/posts/post3.html</link>
+            <description>Conversamos con el creador de este thriller aclamado...</description>
+            <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

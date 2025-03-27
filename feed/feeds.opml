@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Suscripciones PrimeView</title>
+    </head>
+    <body>
+        <outline text="Blog PrimeView" type="rss" xmlUrl="https://tusuario.github.io/web-rss/feed/rss.xml" htmlUrl="https://tusuario.github.io/web-rss/blog/index.html"/>
+        <outline text="Podcast PrimeView" type="rss" xmlUrl="https://tusuario.github.io/web-rss/feed/podcast.xml" htmlUrl="https://tusuario.github.io/web-rss/podcast/index.html"/>
+    </body>
+</opml>
