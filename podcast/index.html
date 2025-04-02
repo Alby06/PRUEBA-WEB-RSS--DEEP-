@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast - PrimeView</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../script.js"></script>
 </head>
 <body>
     <header class="main-header">
+        <button class="menu-toggle" id="menuToggle">☰</button>
         <div class="logo">
             <h1><a href="../index.html">PrimeView</a></h1>
         </div>
+        <nav class="main-navh" id="navMenu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+            </ul>
+        </nav>
         <nav class="main-nav">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -28,7 +36,7 @@
             <h3>Episodio 1: Misteros del Espacio</h3>
             <p class="episode-meta">Publicado: 15 de noviembre, 2023</p>
             <audio controls>
-                <source src="./audios/misteriosinexplicablesdeluniversocan-leif-ivoox3274718.mp3" type="audio/mpeg">
+                <source src="./audios/misterio.mp3" type="audio/mpeg">
                 Tu navegador no soporta el elemento de audio.
             </audio>
             <p>Explora los últimos descubrimientos astronómicos, desde agujeros negros hasta exoplanetas habitables</p>
