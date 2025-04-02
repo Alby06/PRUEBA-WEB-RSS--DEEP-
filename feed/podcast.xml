@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-    <atom:link href="https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/feed/podcast.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/feed/podcast.xml" rel="self" type="application/rss+xml"/>
         <title>PrimeView Podcast</title>
-        <link>https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/index.html</link>
+        <link>https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/index.html</link>
         <description>Conversaciones con los creadores de tus series favoritas</description>
         <language>es</language>
         
         <item>
             <title>Episodio 1: Misterios del Espacio</title>
-            <link>https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/index.html</link>
-            <guid isPermaLink="true">https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/audios/misterio.mp3</guid>
-            <description>Entrevista con el equipo de producción de nuestra nueva serie dramática.</description>
-            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
-            <enclosure url="https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/audios/misterio.mp3" length="10240000" type="audio/mpeg"/>
+            <link>https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/index.html</link>
+            <guid isPermaLink="true">https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/audios/misterio.mp3</guid>
+            <description>Explora los últimos descubrimientos astronómicos, desde agujeros negros hasta exoplanetas habitables.</description>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/audios/misterio.mp3" length="10240000" type="audio/mpeg"/>
         </item>
         
         <item>
             <title>Episodio 2: La música en PrimeView</title>
-            <link>https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/index.html</link>
-            <guid isPermaLink="true">https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/audios/la-musica.mp3</guid>
+            <link>https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/index.html</link>
+            <guid isPermaLink="true">https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/audios/la-musica.mp3</guid>
             <description>Conversación con nuestros compositores sobre cómo crean las bandas sonoras.</description>
             <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
-            <enclosure url="https://alby06.github.io/PRUEBA-WEB-RSS--DEEP-/podcast/audios/la-musica.mp3" length="9800000" type="audio/mpeg"/>
+            <enclosure url="https://alby06.github.io/WEB--PRIME--VIEW--RSS--ALBY/podcast/audios/la-musica.mp3" length="9800000" type="audio/mpeg"/>
         </item>
     </channel>
 </rss>
