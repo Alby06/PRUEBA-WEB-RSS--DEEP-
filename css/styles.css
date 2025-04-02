@@ -98,6 +98,173 @@ main {
     font-weight: bold;
 }
 
+/* Posts styles */
+
+/* Estilos base para artículos del blog */
+
+/* Estilos para las clases adicionales en post1.html */
+
+/* Imagen destacada */
+.featured-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Introducción del contenido */
+.content-intro {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #FFFFFF;
+}
+
+/* Tarjeta de series */
+.series-card {
+    background-color: #1A242F;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de la tarjeta de series */
+.series-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Póster de la serie */
+.series-poster {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+/* Información de la serie */
+.series-info h2 {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.meta-info {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #7B8C9D;
+    margin-top: 0.5rem;
+}
+
+.meta-info .genre {
+    font-weight: bold;
+    color: #00A8E1;
+}
+
+.meta-info .rating {
+    color: #FFD700;
+}
+
+.meta-info .date {
+    color: #FFFFFF;
+}
+
+/* Detalles de la serie */
+.series-details h3 {
+    font-size: 1.5rem;
+    color: #00A8E1;
+    margin-bottom: 0.5rem;
+}
+
+.series-details p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #FFFFFF;
+}
+
+/* Lista de elenco */
+.cast-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+/* Lista de curiosidades */
+.fun-facts {
+    list-style: square;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+/* Lista de episodios destacados */
+.episodes-list {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+/* Botones de llamada a la acción */
+.cta-buttons {
+    margin-top: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #00A8E1;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0078A1;
+}
+
+/* Artículos relacionados */
+.related-posts {
+    margin-top: 2rem;
+}
+
+.related-posts h4 {
+    font-size: 1.5rem;
+    color: #00A8E1;
+    margin-bottom: 1rem;
+}
+
+.related-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-posts ul li {
+    margin-bottom: 0.5rem;
+}
+
+.related-posts ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.related-posts ul li a:hover {
+    color: #0078A1;
+}
+
+
+/* Estilos específicos para post2.html (La casa del lago) */
+
+
+/* Estilos específicos para post3.html (Entrevista) */
+
+
 /* Podcast player */
 audio {
     width: 100%;
@@ -146,6 +313,39 @@ audio {
     }
     
     .subscription-links ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .featured-image {
+        height: 250px;
+    }
+    
+    .series-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .series-poster {
+        width: 120px;
+        height: 180px;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .post-footer {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-content {
+        padding: 1rem 0.5rem;
+    }
+    
+    .meta-info {
         flex-direction: column;
         gap: 0.5rem;
     }
