@@ -34,10 +34,18 @@ a {
 
 .main-nav ul {
     list-style: none;
-    display: flex;
-    gap: 24px;
     margin: 0;
     padding: 0;
+    text-align: center; 
+}
+
+.main-nav ul li {
+    display: inline-block; 
+    margin-right: 24px; 
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0; 
 }
 
 .main-nav a {
@@ -185,14 +193,17 @@ main {
 }
 
 .cast-grid {
-    display: flex;
-    gap: 24px;
     margin-top: 16px;
+    text-align: center; 
 }
 
 .actor {
     text-align: center;
     color: #FFFFFF;
+    display: inline-block; 
+    width: calc(50% - 12px); 
+    margin-bottom: 16px; 
+    vertical-align: top; 
 }
 
 .actor img {
@@ -256,7 +267,6 @@ main {
 .related-posts ul li a {
     color: #ffffff;
     text-decoration: none;
-    transition: color 0.3s;
 }
 
 .related-posts ul li a:hover {
@@ -285,12 +295,10 @@ audio {
     margin-bottom: 8px;
 }
 
-.subscription-links ul {
+.subscription-links a {
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+    text-align: center;
 }
 
 /* Responsive */
