@@ -82,27 +82,19 @@ main {
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .post-meta, .episode-meta {
     color: #7B8C9D;
-    font-size: 0.9rem;
     margin-bottom: 0.5rem;
 }
 
 .read-more {
-    display: inline-block;
     margin-top: 1rem;
-    color: #00A8E1;
-    font-weight: bold;
+    color: #8cc6da;
 }
 
 /* Posts styles */
-
-/* Estilos base para artículos del blog */
-
-/* Estilos para las clases adicionales en post1.html */
 
 /* Imagen destacada */
 .featured-image {
@@ -113,33 +105,36 @@ main {
     margin: 1rem 0;
 }
 
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* Introducción del contenido */
 .content-intro {
     margin-bottom: 2rem;
-    font-size: 1.1rem;
     line-height: 1.8;
     color: #FFFFFF;
 }
 
 /* Tarjeta de series */
-.series-card {
+.post-section {
     background-color: #1A242F;
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Encabezado de la tarjeta de series */
 .series-header {
-    display: flex;
     align-items: center;
     margin-bottom: 1rem;
 }
 
 /* Póster de la serie */
 .series-poster {
-    width: 150px;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     margin-right: 1rem;
@@ -147,21 +142,16 @@ main {
 
 /* Información de la serie */
 .series-info h2 {
-    font-size: 1.8rem;
     color: #FFFFFF;
     margin: 0;
 }
 
 .meta-info {
-    display: flex;
-    gap: 1rem;
-    font-size: 0.9rem;
     color: #7B8C9D;
     margin-top: 0.5rem;
 }
 
 .meta-info .genre {
-    font-weight: bold;
     color: #00A8E1;
 }
 
@@ -175,7 +165,6 @@ main {
 
 /* Detalles de la serie */
 .series-details h3 {
-    font-size: 1.5rem;
     color: #00A8E1;
     margin-bottom: 0.5rem;
 }
@@ -188,15 +177,31 @@ main {
 
 /* Lista de elenco */
 .cast-list {
-    list-style: disc;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
     color: #FFFFFF;
 }
 
+.cast-grid {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.actor {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.actor img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
 /* Lista de curiosidades */
 .fun-facts {
-    list-style: square;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
     color: #FFFFFF;
@@ -204,7 +209,6 @@ main {
 
 /* Lista de episodios destacados */
 .episodes-list {
-    list-style: decimal;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
     color: #FFFFFF;
@@ -221,9 +225,6 @@ main {
     color: #FFFFFF;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
 }
 
 .cta-button:hover {
@@ -259,13 +260,6 @@ main {
 .related-posts ul li a:hover {
     color: #0078A1;
 }
-
-
-/* Estilos específicos para post2.html (La casa del lago) */
-
-
-/* Estilos específicos para post3.html (Entrevista) */
-
 
 /* Podcast player */
 audio {
@@ -329,8 +323,8 @@ audio {
     }
     
     .series-poster {
-        width: 120px;
-        height: 180px;
+        width: 100%;
+        height: auto;
         margin-right: 0;
         margin-bottom: 1rem;
     }
