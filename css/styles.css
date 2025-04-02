@@ -18,18 +18,14 @@ a {
 .main-header {
     background-color: #1A242F;
     padding: 16px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
 }
 
 .logo h1 {
     color: #00A8E1;
     margin: 0;
-    font-size: 28.8px;
+    font-size: 38.8px;
+    text-align: center;
 }
 
 .main-nav ul {
@@ -304,7 +300,6 @@ audio {
 /* Responsive */
 @media (max-width: 768px) {
     .main-header {
-        flex-direction: column;
         padding: 16px 8px;
     }
     
@@ -317,11 +312,6 @@ audio {
     .hero h2 {
         font-size: 32px;
     }
-    
-    .subscription-links ul {
-        flex-direction: column;
-        gap: 8px;
-    }
 
     .featured-image {
         height: auto;
@@ -329,7 +319,6 @@ audio {
     }
     
     .series-header {
-        flex-direction: column;
         align-items: flex-start;
     }
     
@@ -341,8 +330,6 @@ audio {
     }
     
     .post-footer {
-        flex-direction: column;
-        gap: 24px;
         align-items: flex-start;
     }
 
@@ -363,10 +350,6 @@ audio {
         padding: 16px;
     }
 
-    .cast-grid {
-        flex-direction: column;
-        gap: 16px;
-    }
 
     .actor img {
         width: 100px;
