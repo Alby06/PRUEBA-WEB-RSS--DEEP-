@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PrimeView - Streaming Premium</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header class="main-header">
+    <button class="menu-toggle" id="menuToggle">☰</button>
         <div class="logo">
             <h1>PrimeView</h1>
         </div>
+        <nav class="main-navh" id="navMenu">
+            <ul>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -41,8 +49,8 @@
     <footer class="main-footer">
         <div class="subscription-links">
             <h3>Suscríbete</h3>
-                <a href="feed/podcast.xml">Podcast RSS</a>
-                <a href="feed/rss.xml">Blog RSS</a>
+                <a href="feed/podcast.xml">Podcast RSS |</a>
+                <a href="feed/rss.xml">Blog RSS |</a>
                 <a href="feed/feeds.opml">Todos los feeds (OPML)</a>
         </div>
         <div>
